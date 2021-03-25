@@ -1,0 +1,79 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+::-webkit-scrollbar {
+   width: 0px;
+}
+body {
+   background-image: linear-gradient(to right bottom, #65dfc9, #fda085);
+   min-height: 100vh;
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-style: oblique;
+}
+.container {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   width: 50%;
+   font-size: 4rem;
+}
+.btn {
+   /* color: #30cc8b;
+   border-color: #30cc8b; */
+   color: white;
+   border-color: white;
+   cursor: pointer;
+}
+.btn:hover {
+   color: white;
+   background-color: #5eb9eb;
+   outline: none !important;
+}
+h1 {
+   padding: 20px;
+   font-size: 3.5rem;
+}
+ul {
+   list-style: none;
+   padding: 0;
+}
+.elementeLista {
+   font-size: 1.7rem;
+   display: flex;
+   justify-content: space-between;
+   overflow: auto;
+}
+.buton-bifat {
+   color: rgb(3, 173, 60);
+   background-color: transparent;
+   border: none;
+   margin-left: auto;
+}
+.buton-sterge {
+   color: rgb(245, 24, 24);
+   background-color: transparent;
+   border: none;
+}
+.buton-modifica {
+   color: royalblue;
+   background-color: transparent;
+   border: none;
+}
+button {
+   outline: none !important;
+   box-shadow: none !important;
+}
+a {
+   pointer-events: none;
+   text-decoration: none;
+   color: inherit;
+}
+.sarcina-incheiata {
+   opacity: 0.5;
+   text-decoration: line-through;
+}
